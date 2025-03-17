@@ -1,4 +1,4 @@
-
+/*
 --================================================================
 --DDL Scripts: Create Bronze Tables
 --================================================================
@@ -7,7 +7,7 @@
 --	if they already exist.
 --Run this script to re-define the DDl structure of 'bronze' Tables
 --================================================================
-
+*/
 
 
 IF OBJECT_ID('bronze.crm_cust_info','U') IS NOT NULL
