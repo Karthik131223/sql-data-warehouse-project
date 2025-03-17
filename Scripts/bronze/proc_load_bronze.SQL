@@ -1,3 +1,4 @@
+/*
 --================================================================
 --Stored Procedure : Load Bronze Layer (Source -> Bronze)
 --================================================================
@@ -7,6 +8,7 @@
 --	-> Truncates the bronze tables before Loading data.
 --	-> Uses the 'BULK INSERT' command t load data from csv Files to bronze tables.
 --================================================================
+*/
 
 CREATE OR ALTER PROCEDURE bronze.load_bronze AS 
 BEGIN
